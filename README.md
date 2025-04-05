@@ -61,8 +61,7 @@ This project uses [WeatherAPI](https://www.weatherapi.com/) to fetch real-time w
 
 ### 🙌 Let’s Build Together
 
-Contributions are welcome – whether it's a small fix, new feature, or UI improvement!  
-If you have questions, open an issue or start a discussion.
+Contributions are welcome – whether it's a small fix, new feature, or UI improvement!
 
 ---
 
