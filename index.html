@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Wizard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center h-screen p-4">
+
+    <div class="text-center  p-6 rounded-xl  w-full max-w-md">
+        <div class="flex flex-col items-center">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgMjU2Ij48cGF0aCBkPSJNMjA4LDE2MHYxNkg0OFYxNjBaIiBmaWxsPSIjZmZmIi8+PHBhdGggZD0iTTE2OCwxMjB2MTZIOThWMTIwWiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Ik0yMzIsODB2MTZIMjRWODBaIiBmaWxsPSIjZmZmIi8+PGNpcmNsZSBjeD0iMTI4IiBjeT0iNDgiIHI9IjMyIiBmaWxsPSIjZmZmIi8+PC9zdmc+"
+                alt="Cloud Logo" class="w-20 mb-4">
+            <h1 class="text-2xl font-bold text-gray-800">Weather Wizard</h1>
+        </div>
+
+        <div class="mt-6">
+            <input type="text" id="location" placeholder="🌍 Enter Location..."
+                class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 text-center text-lg">
+            <button onclick="startPrank()"
+                class="mt-4 w-full bg-blue-600 text-white py-2 rounded-md text-lg font-semibold hover:bg-blue-700 transition">
+                Check Weather
+            </button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
