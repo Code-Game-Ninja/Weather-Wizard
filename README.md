@@ -1,5 +1,3 @@
-## 📌 ADD_ME.md
-
 ### 👋 Welcome to Weather Wizard!
 
 Hey there!  
